@@ -1,0 +1,43 @@
+body{
+  background-color: whitesmoke;
+}
+.product-cards{
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Roboto', sans-serif;
+}
+.title{
+  border: solid 1px lightblue;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Gemunu Libre', sans-serif;
+  font-weight: bolder;
+}
+.prod-imag{
+  object-fit: contain;
+  position: relative;
+}
+img {
+  border: 1px solid black;
+}
+.description{
+  text-justify: auto;
+  text-align: center;
+}
+.bold-letters{ 
+  font-weight: bolder;
+}
+footer{
+  font-size: 10pt;
+}
+img {
+  object-position: center;
+  width:  200px;
+    height: 200px;
+  object-fit: contain;
+}
+.availability{
+  color: yellow;
+  background-color: darkgray;
+}
